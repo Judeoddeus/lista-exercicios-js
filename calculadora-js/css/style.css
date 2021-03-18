@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    color: rgb(211, 192, 22);
+}
+
+body{
+    background: linear-gradient(to left top, #56118f, #b121b6 );
+}
+html, body{
+    height: 100%;
+}
+
+.area-calculadora{
+    width: 300px;
+    padding: 10px 20px;
+    border: 3px solid rgb(224, 208, 62, 0.5);
+    border-radius: 10px;
+    
+    /*Centralizando a calculadora na tela*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);/*coloca na metade da tela */
+}
+
+#visor{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: none;
+    border: 3px solid rgb(224, 208, 62, 0.5);
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn button{
+    flex-basis: 20%; /*Faz com que todos os botões ocupem 20% da linha*/
+    height: 50px;
+    background: none;
+    outline: none;
+    border: 0.5px solid ;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn button:last-child{
+    flex-basis: 45%;
+}
+
+.btn button:hover{
+    transform: scale(1.08);
+}

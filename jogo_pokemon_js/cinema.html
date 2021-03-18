@@ -1,0 +1,44 @@
+<!-- - download do plugin (swipebox) - https://www.jqueryscript.net/demo/Touchable-jQuery-Lightbox-Plugin-swipebox/
+- criar uma pasta lib (library)
+- colocar o plugin dentro da pasta lib
+- extrair o plugin
+- renomear a pasta do plugin
+- inserir o css
+- inserir o js
+- montar o html do plugin
+- ir no seu arquivo js e colocar a chamada do plugin -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Qual é o Filme</title>
+        <link rel="stylesheet" href="lib/swipebox/src/css/swipebox.css">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Cinema em casa</h1>
+        <hr>
+            <input id="cep">
+            <button id="BuscarCep">Buscar Cep</button>
+            <div id="endereco-completo"></div>
+        <hr>
+        <div>
+            <h2>Mulan</h2>
+            <p id="resumo" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aut, ab sequi maxime eos dolores voluptatibus, laborum at
+                 explicabo excepturi
+                 quis consequatur ea tempora ex ipsa adipisci. Earum 
+                 aliquam hic numquam!</p>
+                 <button onclick="Esconder();">VER MENOS</button>
+        </div>
+
+        <a href="imagens/p1.png" title="Menu Pokemon" class="swipebox">
+            <img src="imagens/p1.png" style="width: 50px;">
+        </a>
+                
+
+        <script src="js/jquery.js"></script>
+        <script src="lib/swipebox/src/js/jquery.swipebox.js"></script>
+        <script src="js/funcoes-cinema.js"></script>
+        
+    </body>
+</html>
