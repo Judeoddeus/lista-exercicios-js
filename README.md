@@ -1,2 +1,2 @@
 # Exercícios Javascript
-Exercícios em JS
+Repositório com exercícios de fixação para prática de javascript
